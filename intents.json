@@ -1,0 +1,507 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "Hello",
+          "Hey",
+          "Hi",
+          "hey",
+          "How are you"
+        ],
+        "responses": [
+          "Bataiye main aapki kya seva karu?",
+          "Main kaise help kar sakti hoon?",
+          "Haan ji boliye",
+          "Hello, how can I assist you?",
+          "Hi, how may I help you?",
+          "Hey there, what can I do for you?",
+          "Hi, how can I assist you today?",
+          "Hi there, how can I help you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you",
+          "Till next time"
+        ],
+        "responses": [
+          "Goodbye jii",
+          "Dhyaan rakhiye",
+          "Goodbye!",
+          "Have a nice day!",
+          "See you later!",
+          "Take care!",
+          "Bye!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Thank's a lot!",
+          "Thank you very much"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "Anytime!",
+          "Glad I could help!",
+          "My pleasure!"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "Kya naam hai tmhra?",
+          "What's your name?",
+          "Who are you?",
+          "What do you call yourself?"
+        ],
+        "responses": [
+          "Main AIT-CSE ki Chatbot hoon aur main apki seva kar skti hoon",
+          "My name is Apsara.",
+          "Main AIT-CSE ki Chatbot hoon",
+          "I'm Apsara, Designed by Shubharthak Sir.",
+          "People call me Apsara.",
+          "Mujhe apsara bulate hain",
+          "Log mujhe apsara bulate hai"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "How old are you?",
+          "What's your age?",
+          "Age kya hai apki"
+        ],
+        "responses": [
+          "I was created recently.",
+          "Age is just a number, don't you think?",
+          "Meri koi age nahi hain"
+          
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Kya kar sakte ho aap",
+          "How can you help me?",
+          "What can you do?",
+          "What are your features?"
+        ],
+        "responses": [
+          "Main AIT-CSE ki inquiry solve kar skti hoon",
+          "I can do alot of stuff regarding AIT-CSE",
+          "I can help you in searching student details or any query related to AIT-CSE like director mail id or fee payment or telling which is your next class"
+        ]
+      },
+      {
+          "tag": "time",
+          "patterns": [
+            "What is the time",
+            "What's the time",
+            "time",
+            "Can you tell me the time?",
+            "Kya time chal rha hai ?"
+          ],
+          "responses": ["time"]
+          },
+          {
+            "tag": "date",
+            "patterns": [
+              "What is the date",
+              "What's the date",
+              "date", 
+              "tareek",
+              "aaj konsi tareek hai",
+              "aaj ki tarik btado"
+            ],
+            "responses": ["date"]
+            },
+            {
+              "tag": "day",
+              "patterns": [
+                "What is the day",
+                "What's the day",
+                "day", 
+                "din",
+                "aaj ka din btao"
+              ],
+              "responses": ["day"]
+              },{
+                "tag": "class",
+                "patterns": [
+                  "What's my current class",
+                  "What's my next class ",
+                  "Which class is mine now", 
+                  "class batao",
+                  "konsi class hai ? "
+                ],
+                "responses": ["class"]
+                },
+              {
+                "tag": "wikipedia",
+                "patterns": [
+                  "who is",
+                  "about",
+                  "what is", 
+                  "wikipedia"
+                ],
+                "responses": ["wikipedia"]
+                },
+                {
+                  "tag": "search",
+                  "patterns": [
+                    "student ka pta karna hai",
+                    "student ki details chahiye",
+                    "student ki detail chahiye",
+                    "student search karna hai",
+                    "can you search the student",
+                    "can you give me detail of the student",
+                    "give me detail of the student", 
+                    "search for the student"
+                  ],
+                  "responses": ["search"]
+                  },
+                  {
+                    "tag": "fee_payment",
+                    "patterns": [
+                      "who should I contact for fee",
+                      "fee",
+                      "fee ke liye kisko contact karein?"
+                    ],
+                    "responses": [
+                      "For issues related to fee payment, please contact rajeev.sood@cumail.in.",
+                      "Fee issue ke liye please contact rajeev.sood@cumail.in"
+                    ]
+                  },
+                  {
+                    "tag": "cuims_registration",
+                    "patterns": [
+                      "CUIMS",
+                      "Registration",
+                      "CUIMS/Registration se related koi problem hai"
+                    ],
+                    "responses": [
+                      "CUIMS/Registration ke liye please contact egov@cumail.in",
+                      "For issues related to CUIMS/Registration, please contact egov@cumail.in."
+                    ]
+                  },
+                  {
+                    "tag": "password_issues",
+                    "patterns": [
+                      "password",
+                      "password se related problem hai"
+                    ],
+                    "responses": [
+                      "Password  issue ke liye please contact egov@cumail.in",
+                      "For issues related to password, please contact forgetpassword@cumail.in or password@cumail.in."
+                    ]
+                  },
+                  {
+                    "tag": "study_loan",
+                    "patterns": [
+                      "study loan",
+                      "study loan se related problem hai"
+                    ],
+                    "responses": [
+                      "Study loan ki jankari ke liye, kripya balwant.singh@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "student_record",
+                    "patterns": [
+                      "student record",
+                      "student record se related problem hai"
+                    ],
+                    "responses": [
+                      "Student record ki jankari ke liye, kripya registration@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "student_grievances",
+                    "patterns": [
+                      "student grievances",
+                      "student care",
+                      "koi aur query hai"
+                    ],
+                    "responses": [
+                      "Student shikayat ya kisi aur prashn ke liye, kripya studentcare@cumail.in se sampark karein."
+                    ]
+                  },{
+                    "tag": "director",
+                    "patterns": [
+                      "director",
+                      "AIT-CSE director",
+                      "director se baat karni hai"
+                    ],
+                    "responses": [
+                      "AIT-CSE Director se judi jankari ke liye, kripya director.aitcse@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "additional_director",
+                    "patterns": [
+                      "additional director",
+                      "AIT-CSE additional director",
+                      "additional director se baat karni hai"
+                    ],
+                    "responses": [
+                      "AIT-CSE Additional Director se judi jankari ke liye, kripya additionaldirector.ait@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "hod",
+                    "patterns": [
+                      "HOD",
+                      "AIT-CSE HOD",
+                      "HOD se baat karni hai"
+                    ],
+                    "responses": [
+                      "AIT-CSE Head of Department (HOD) se judi jankari ke liye, kripya hod.aitcse@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "hostel",
+                    "patterns": [
+                      "hostel",
+                      "hostel se related problem hai"
+                    ],
+                    "responses": [
+                      "Hostel se judi jankari ke liye, kripya dsw@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "marksheets_is_blockchain",
+                    "patterns": [
+                      "marksheets IS",
+                      "marksheets blockchain",
+                      "marksheets se related problem hai"
+                    ],
+                    "responses": [
+                      "IS aur Blockchain ke marksheets se judi jankari ke liye, kripya neelam.e13025@cumail.in ya support.oal@cumail.ing se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "marksheets_bda",
+                    "patterns": [
+                      "marksheets BDA",
+                      "marksheets se related problem hai",
+                      "BDA marksheets"
+                    ],
+                    "responses": [
+                      "BDA ke marksheets se judi jankari ke liye, kripya amanpreet.e13022@cumail.in ya support.oa2@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "marksheets_aiml",
+                    "patterns": [
+                      "marksheets AIML",
+                      "marksheets se related problem hai",
+                      "AIML marksheets"
+                    ],
+                    "responses": [
+                      "AIML ke marksheets se judi jankari ke liye, kripya kirandeep.e13033@cumail.in ya support.oa3@cumail.in"
+                    ]
+                  },
+                  {
+                    "tag": "marksheets_iot_mc",
+                    "patterns": [
+                      "marksheets IOT",
+                      "marksheets MC",
+                      "marksheets se related problem hai",
+                      "IOT marksheets",
+                      "MC marksheets"
+                    ],
+                    "responses": [
+                      "IOT aur MC ke marksheets se judi jankari ke liye, kripya nisha.e14234@cumail.in ya support.oa5@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "marksheets_csbs_gg",
+                    "patterns": [
+                      "marksheets CSBS",
+                      "marksheets GG",
+                      "marksheets se related problem hai",
+                      "CSBS marksheets",
+                      "GG marksheets"
+                    ],
+                    "responses": [
+                      "CSBS aur G&G ke marksheets se judi jankari ke liye, kripya lalita.e14798@cumail.in ya support.oa6@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "marksheets_cc_devops",
+                    "patterns": [
+                      "marksheets CC",
+                      "marksheets Devops",
+                      "marksheets se related problem hai",
+                      "CC marksheets",
+                      "Devops marksheets"
+                    ],
+                    "responses": [
+                      "CC aur Devops ke marksheets se judi jankari ke liye, kripya jaspreet.e14820@cumail.in ya support.oa7@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "sports_coordinator",
+                    "patterns": [
+                      "sports coordinator",
+                      "sports se related problem hai"
+                    ],
+                    "responses": [
+                      "Khel prabandhan se judi jankari ke liye, kripya abhishek.e12833@cumail.in ko sampark karein ya 8603681941 par call karein."
+                    ]
+                  },
+                  {
+                    "tag": "program_leader_aiml",
+                    "patterns": [
+                      "program leader AIML",
+                      "AIML program leader",
+                      "AIML program se related problem hai"
+                    ],
+                    "responses": [
+                      "AIML Program Leader se judi jankari ke liye, kripya plaitaiml@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "program_leader_is_blockchain",
+                    "patterns": [
+                      "program leader IS",
+                      "program leader blockchain",
+                      "IS program leader",
+                      "blockchain program leader",
+                      "IS blockchain program se related problem hai"
+                    ],
+                    "responses": [
+                      "IS aur Blockchain ke Program Leader se judi jankari ke liye, kripya pl.aitis@cumail.in se sampark karein."
+                    ]
+                  },
+                  {
+                    "tag": "program_leader_iot_mc",
+                    "patterns": [
+                      "program leader IOT",
+                      "program leader MC",
+                      "IOT program leader",
+                      "MC program leader",
+                      "IOT MC program se related problem hai"
+                    ],
+                    "responses": [
+                      "IOT aur MC ke Program Leader se sambandhit jankari ke liye, kripya pl.aitiot@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "program_leader_bda",
+                    "patterns": [
+                      "program leader BDA",
+                      "BDA program leader",
+                      "BDA program se related problem hai"
+                    ],
+                    "responses": [
+                      "BDA ke Program Leader se sambandhit jankari ke liye, kripya plaitbda@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "program_leader_csbs_gg",
+                    "patterns": [
+                      "program leader CSBS",
+                      "program leader GG",
+                      "CSBS program leader",
+                      "GG program leader",
+                      "CSBS GG program se related problem hai"
+                    ],
+                    "responses": [
+                      "CSBS aur G&G ke Program Leader se sambandhit jankari ke liye, kripya plaitcsbs@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "exam_coordinator",
+                    "patterns": [
+                      "exam coordinator",
+                      "exam se related problem hai"
+                    ],
+                    "responses": [
+                      "Pariksha Coordinator se sambandhit jankari ke liye, kripya exam.aitcse@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "project_coordinator",
+                    "patterns": [
+                      "project coordinator",
+                      "project se related problem hai"
+                    ],
+                    "responses": [
+                      "Project Coordinator se sambandhit jankari ke liye, kripya projects.ait@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "placement_coordinator",
+                    "patterns": [
+                      "placement coordinator",
+                      "placement se related problem hai"
+                    ],
+                    "responses": [
+                      "Placement Coordinator se sambandhit jankari ke liye, kripya ibmese.coordinator@cumail.ir par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "event_coordinator",
+                    "patterns": [
+                      "event coordinator",
+                      "event se related problem hai"
+                    ],
+                    "responses": [
+                      "Event Coordinator se sambandhit jankari ke liye, kripya events.ait@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "mooc_coordinator",
+                    "patterns": [
+                      "MOOC coordinator",
+                      "MOOC se related problem hai"
+                    ],
+                    "responses": [
+                      "MOOC Coordinator se sambandhit jankari ke liye, kripya mooc-aitcse@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "dcpd_spoc",
+                    "patterns": [
+                      "DCPD SPOC",
+                      "DCPD se related problem hai"
+                    ],
+                    "responses": [
+                      "DCPD SPOC se sambandhit jankari ke liye, kripya ashok.e11260@cumail.in par sampark karen."
+                    ]
+                  },{
+                    "tag": "alumni_coordinator",
+                    "patterns": [
+                      "alumni coordinator",
+                      "alumni se related problem hai"
+                    ],
+                    "responses": [
+                      "Alumni Coordinator se sambandhit jankari ke liye, kripya pramod.e9758@cumail.in par sampark karen."
+                    ]
+                  },
+                  {
+                    "tag": "nss_program_officer",
+                    "patterns": [
+                      "NSS program officer",
+                      "NSS se related problem hai"
+                    ],
+                    "responses": [
+                      "NSS Program Officer se sambandhit jankari ke liye, kripya kushagra.e13465@cumail.in par sampark karen."
+                    ]
+                  }
+    ]
+}
+
+  
