@@ -10,7 +10,7 @@ Setup
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/ai-chatbot.git
+git clone https://github.com/shubharthaksangharsha/AIT-CSE-chatbot-voicechatbot.git
 ```
 Install the required dependencies:
 ```
