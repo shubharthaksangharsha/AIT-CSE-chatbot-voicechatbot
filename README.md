@@ -14,7 +14,7 @@ git clone https://github.com/shubharthaksangharsha/AIT-CSE-chatbot-voicechatbot.
 ```
 Install the required dependencies:
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 Run the main script:
 ```
