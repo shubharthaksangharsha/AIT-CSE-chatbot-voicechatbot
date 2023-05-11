@@ -1,10 +1,8 @@
+# AI Chatbot
 
-Certainly! Here's an example of a README file for an AI chatbot project:
-
-AI Chatbot
 The AI Chatbot is a project that utilizes Natural Language Processing (NLP) techniques to create a conversational chatbot. It enables voice command recognition, tokenization, stemming, and bag of words representation for text processing.
 
-Requirements
+**Requirements**
 Python 3.6 or above
 NumPy library (install using pip install numpy)
 NLTK library (install using pip install nltk)
