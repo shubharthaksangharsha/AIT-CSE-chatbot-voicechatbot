@@ -1,4 +1,4 @@
-# AI Chatbot
+# AIT-CSE Chatbot
 
 The AI Chatbot is a project that utilizes Natural Language Processing (NLP) techniques to create a conversational chatbot. It enables voice command recognition, tokenization, stemming, and bag of words representation for text processing.
 
