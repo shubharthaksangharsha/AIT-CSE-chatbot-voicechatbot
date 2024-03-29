@@ -2,6 +2,9 @@
 
 The AI Chatbot is a project that utilizes Natural Language Processing (NLP) techniques to create a conversational chatbot. It enables voice command recognition, tokenization, stemming, and bag of words representation for text processing.
 
+![image](https://github.com/shubharthaksangharsha/AIT-CSE-chatbot-voicechatbot/assets/76090666/ee14fbe8-2ab1-4b59-976e-77d0c5575072)
+
+
 **Requirements**
 Python 3.6 or above
 NumPy library (install using pip install numpy)
